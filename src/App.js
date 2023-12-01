@@ -1,10 +1,11 @@
-import './App.css';
+import Home from './pages/Home'
+import "./App.css";
+// import Home from 'page'
+
 
 function App() {
-  return (
-    <div className="App text-amber-800 text-2xl font-bold">
-        Sample app
-    </div>
+  return(
+    <Home />
   );
 }
 
